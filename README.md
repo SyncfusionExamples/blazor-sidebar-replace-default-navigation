@@ -13,4 +13,4 @@ Blazor Sidebar example demonstrates the reasons and steps to replace the default
 * Run `dotnet run` to open application in `https://localhost:5001`
 
 ## Blog reference
-[5 Reasons Why You Should Replace Default Navigation Bar with Syncfusion Blazor Sidebar](https://www.syncfusion.com/blogs/ )
+[5 Reasons Why You Should Replace Default Navigation Bar with Syncfusion Blazor Sidebar](https://www.syncfusion.com/blogs/post/replace-default-navigation-with-syncfusion-blazor-sidebar.aspx)
