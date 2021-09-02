@@ -1,0 +1,41 @@
+﻿@using Syncfusion.Blazor.Navigations
+
+ <div class="dock">
+                    <ul>
+                        <li class="sidebar-item" id="toggle" @onclick="@Toggle">
+                            <span class="e-icons expand"></span>
+                            <span class="e-text" title="menu">Menu</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <span class="e-icons home"></span>
+                            <span class="e-text" title="home">Home</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <span class="e-icons profile"></span>
+                            <span class="e-text" title="profile">Profile</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <span class="e-icons info"></span>
+                            <span class="e-text" title="info">Info</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <span class="e-icons settings"></span>
+                            <span class="e-text" title="settings">Settings</span>
+                        </li>
+                    </ul>
+                </div>
+@code {
+
+    [Parameter]
+    public SfSidebar SidebarInstance { get; set; }
+
+    public void Toggle()
+    {
+        SidebarInstance.Toggle();
+    }
+
+
+
+}
+
+
