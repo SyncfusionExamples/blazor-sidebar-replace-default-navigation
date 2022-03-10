@@ -1,6 +1,5 @@
 # Replace Default Navigation Bar with Syncfusion Blazor Sidebar 
 
-
 The [Blazor Sidebar](https://www.syncfusion.com/blazor-components/blazor-sidebar?utm_source=github&utm_medium=listing&utm_campaign=blazor-navigations-github-samples) is an expandable and collapsible component that typically acts as a side container to place primary or secondary content alongside the main content. Blazor Sidebar example demonstrates the reasons and steps to replace the default navigation menu in your Blazor app with the Syncfusion Sidebar component.
 
 ## How to run
