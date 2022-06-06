@@ -44,7 +44,7 @@ Bind custom actions to any element (hamburger menu or buttons) to toggle the Bla
 
 ### Dock the HTML slide panel content
 
-When you [dock](https://blazor.syncfusion.com/documentation/sidebar/docking-sidebar) the side content to give the main content more space, the navigation text is represented as a shortened view of icons.
+When you [dock](https://blazor.syncfusion.com/documentation/sidebar/docking-sidebar?utm_source=github&utm_medium=listing&utm_campaign=blazor-sidebar-github-samples) the side content to give the main content more space, the navigation text is represented as a shortened view of icons.
 
 ## Related links
 [Learn More about Blazor Sidebar](https://www.syncfusion.com/blazor-components/blazor-sidebar?utm_source=github&utm_medium=listing&utm_campaign=blazor-sidebar-github-samples)
