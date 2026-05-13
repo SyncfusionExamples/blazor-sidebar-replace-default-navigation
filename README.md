@@ -1,6 +1,5 @@
 # Replace Default Navigation Bar with Syncfusion Blazor Sidebar
 
-**Repository Description**  
 This repository contains a Blazor sample that demonstrates how to replace the default navigation menu in a Blazor application with the Syncfusion Blazor Sidebar component.
 
 This sample explains how to integrate the Syncfusion Blazor Sidebar component to create a modern, responsive navigation experience in place of the default Blazor navigation bar.
