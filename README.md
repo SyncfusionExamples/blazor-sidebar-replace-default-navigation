@@ -1,53 +1,100 @@
-# Replace Default Navigation Bar with Syncfusion Blazor Sidebar
+# Title
 
-**Repository Description**  
-This repository contains a Blazor sample that demonstrates how to replace the default navigation menu in a Blazor application with the Syncfusion Blazor Sidebar component.
+Replace Default Navigation with Syncfusion Blazor Sidebar
 
-This sample explains how to integrate the Syncfusion Blazor Sidebar component to create a modern, responsive navigation experience in place of the default Blazor navigation bar.
+## Overview
 
-## Project Overview
-The purpose of this project is to help developers understand how to use the Syncfusion Blazor Sidebar component for application navigation. It shows how the Sidebar can be used as a flexible and customizable alternative to the built‑in Blazor navigation menu.
+This sample demonstrates how to replace the default Blazor navigation menu with the Syncfusion [Blazor Sidebar](https://www.syncfusion.com/forums) component. The application uses a Sidebar-based layout to provide a responsive and customizable navigation experience within a Blazor Server application.
 
-## Features
-- Integration of Syncfusion Blazor Sidebar component  
-- Replacement of the default Blazor navigation menu  
-- Responsive and collapsible sidebar layout  
-- Clean and customizable navigation structure  
+The implementation shows how the built-in Blazor navigation menu can be replaced with a Sidebar component that supports collapsible navigation and a modern application layout. It serves as a practical reference for developers who want to introduce Sidebar-based navigation patterns into Blazor applications.
 
-## Examples
-- Live demo:  
-  https://blazor.syncfusion.com/demos/sidebar/default-functionalities?theme=bootstrap4
+## Key Features
+
+- Uses the Syncfusion Blazor Sidebar component as the primary application navigation element.
+- Registers Syncfusion Blazor services using `builder.Services.AddSyncfusionBlazor()` in `Program.cs`.
+- Configures a Blazor Server application using `builder.Services.AddServerSideBlazor()`.
+- Replaces the default navigation structure with a Sidebar-based layout.
+- Supports responsive and collapsible application navigation.
+- Demonstrates integration of Syncfusion components within the Blazor layout architecture.
+- [VERIFY: Sidebar-specific properties, methods, and event handlers used in Razor files could not be fully inspected from the repository.]
 
 ## Prerequisites
-- Visual Studio 2022  
-- .NET SDK compatible with Blazor  
 
-## Installation and Running the Project
-1. Check out or clone this project to a local directory.
-2. Open the solution file using Visual Studio 2022.
-3. Restore the NuGet packages by rebuilding the solution.
-4. Build and run the project to view the Sidebar‑based navigation.
+- Visual Studio 2022
+- .NET SDK compatible with Blazor
+- Visual Studio 2022 or Visual Studio Code
+- .NET SDK compatible with the project's target framework
 
-## Usage
-Run the application and observe how the default navigation bar is replaced by the Syncfusion Blazor Sidebar. Customize the Sidebar configuration to adjust layout, responsiveness, or navigation items.
+## How to Run the Project
 
-## Documentation
-- General Syncfusion documentation:  
-  https://help.syncfusion.com/
-- Blazor Introduction:  
-  https://blazor.syncfusion.com/documentation/introduction
-- Blazor Sidebar Getting Started:  
-  https://blazor.syncfusion.com/documentation/sidebar/getting-started
+**Visual Studio 2022**
 
-## Additional Resources
-- Blog reference:  
-  https://www.syncfusion.com/blogs/post/replace-default-navigation-with-syncfusion-blazor-sidebar.aspx
+1. Clone or download the repository.
+2. Open the solution file:
 
-## Troubleshooting
-- Ensure the correct .NET SDK and Visual Studio version are installed.
-- Rebuild the solution if NuGet packages fail to restore.
-- Check browser developer tools for runtime or rendering errors.
-- Verify Sidebar configuration if navigation does not appear as expected.
+   `SidebarDockNavigation.sln`
 
-## Support
-For detailed API references, advanced configuration options, and additional examples, refer to the Syncfusion Blazor documentation links provided above.
+3. Restore the NuGet packages.
+4. Set the startup project to:
+
+   `SidebarDockNavigation`
+
+5. Build the solution.
+6. Run the application using `Ctrl+F5`.
+
+**Visual Studio Code**
+
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the project directory.
+
+```bash
+cd SidebarDockNavigation
+dotnet restore
+dotnet run
+```
+
+4. Open the local URL displayed in the terminal after the application starts.
+
+[VERIFY: Exact launch profile URL could not be confirmed from the repository.]
+
+## Project Structure
+
+`App.razor` — Root application component that configures routing.
+
+`Program.cs` — Configures dependency injection, Syncfusion Blazor services, routing, and application startup.
+
+`SidebarDockNavigation.csproj` — Project file containing target framework and package references.
+
+`SidebarDockNavigation.sln` — Visual Studio solution file.
+
+`_Imports.razor` — Shared Razor imports used throughout the application.
+
+`appsettings.json` — Application configuration settings.
+
+`appsettings.Development.json` — Development environment configuration.
+
+`Pages/` — Contains the Razor pages used by the sample application.  
+[VERIFY: Individual page files could not be fully inspected.]
+
+`Shared/` — Contains layout and navigation-related Razor components.  
+[VERIFY: Individual shared files could not be fully inspected.]
+
+`Data/` — Contains supporting data models and service classes used by the sample.  
+[VERIFY: Individual data files could not be fully inspected.]
+
+`Properties/launchSettings.json` — Launch profile and development configuration.
+
+`wwwroot/` — Contains static assets such as stylesheets, images, and scripts used by the application.
+
+`.github/workflows/` — GitHub Actions workflow configurations.
+
+## Support and Feedback
+
+- For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
+- To report an issue specific to this sample, open a GitHub issue in this repository.
+- For implementation details, see the https://blazor.syncfusion.com/documentation/sidebar/getting-started.
+
+## License
+
+This is a Syncfusion sample project provided to demonstrate product usage. Review the [Syncfusion license terms](https://www.syncfusion.com/sales/pricing?category=ui-components) before using Syncfusion components in your own applications.
