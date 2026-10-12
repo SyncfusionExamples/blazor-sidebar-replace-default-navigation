@@ -16,12 +16,9 @@ The implementation shows how the built-in Blazor navigation menu can be replaced
 - Replaces the default navigation structure with a Sidebar-based layout.
 - Supports responsive and collapsible application navigation.
 - Demonstrates integration of Syncfusion components within the Blazor layout architecture.
-- [VERIFY: Sidebar-specific properties, methods, and event handlers used in Razor files could not be fully inspected from the repository.]
 
 ## Prerequisites
 
-- Visual Studio 2022
-- .NET SDK compatible with Blazor
 - Visual Studio 2022 or Visual Studio Code
 - .NET SDK compatible with the project's target framework
 
@@ -54,10 +51,6 @@ dotnet restore
 dotnet run
 ```
 
-4. Open the local URL displayed in the terminal after the application starts.
-
-[VERIFY: Exact launch profile URL could not be confirmed from the repository.]
-
 ## Project Structure
 
 `App.razor` — Root application component that configures routing.
@@ -74,11 +67,9 @@ dotnet run
 
 `appsettings.Development.json` — Development environment configuration.
 
-`Pages/` — Contains the Razor pages used by the sample application.  
-[VERIFY: Individual page files could not be fully inspected.]
+`Pages/` — Contains the Razor pages used by the sample application. 
 
-`Shared/` — Contains layout and navigation-related Razor components.  
-[VERIFY: Individual shared files could not be fully inspected.]
+`Shared/` — Contains layout and navigation-related Razor components.
 
 `Data/` — Contains supporting data models and service classes used by the sample.  
 [VERIFY: Individual data files could not be fully inspected.]
