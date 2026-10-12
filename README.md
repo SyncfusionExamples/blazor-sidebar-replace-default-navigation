@@ -66,8 +66,7 @@ dotnet run
 
 `Shared/` — Contains layout and navigation-related Razor components.
 
-`Data/` — Contains supporting data models and service classes used by the sample.  
-[VERIFY: Individual data files could not be fully inspected.]
+`Data/` — Contains supporting data models and service classes used by the sample.
 
 `Properties/launchSettings.json` — Launch profile and development configuration.
 
