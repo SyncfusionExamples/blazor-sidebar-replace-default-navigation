@@ -43,6 +43,7 @@ The implementation shows how the built in Blazor navigation menu can be replaced
 dotnet restore
 dotnet run
 ```
+4. Open the local URL displayed in the terminal after the application starts.
 
 ## Project Structure
 
