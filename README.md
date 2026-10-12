@@ -1,6 +1,4 @@
-# Title
-
-Replace Default Navigation with Syncfusion Blazor Sidebar
+# Replace Default Navigation with Syncfusion Blazor Sidebar
 
 ## Overview
 
@@ -48,31 +46,9 @@ dotnet run
 
 ## Project Structure
 
-`App.razor` — Root application component that configures routing.
+- `SidebarDockNavigation.sln` — Visual Studio solution file containing the sample projects.
 
-`Program.cs` — Configures dependency injection, Syncfusion Blazor services, routing, and application startup.
-
-`SidebarDockNavigation.csproj` — Project file containing target framework and package references.
-
-`SidebarDockNavigation.sln` — Visual Studio solution file.
-
-`_Imports.razor` — Shared Razor imports used throughout the application.
-
-`appsettings.json` — Application configuration settings.
-
-`appsettings.Development.json` — Development environment configuration.
-
-`Pages/` — Contains the Razor pages used by the sample application. 
-
-`Shared/` — Contains layout and navigation-related Razor components.
-
-`Data/` — Contains supporting data models and service classes used by the sample.
-
-`Properties/launchSettings.json` — Launch profile and development configuration.
-
-`wwwroot/` — Contains static assets such as stylesheets, images, and scripts used by the application.
-
-`.github/workflows/` — GitHub Actions workflow configurations.
+- `Pages/Index.razor` — Main sample page that demonstrates replacing the default Blazor navigation menu with the Syncfusion Sidebar component.
 
 ## Support and Feedback
 
