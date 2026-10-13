@@ -1,53 +1,62 @@
-# Replace Default Navigation Bar with Syncfusion Blazor Sidebar
+# Replace Default Navigation with Syncfusion Blazor Sidebar
 
-**Repository Description**  
-This repository contains a Blazor sample that demonstrates how to replace the default navigation menu in a Blazor application with the Syncfusion Blazor Sidebar component.
+## Overview
 
-This sample explains how to integrate the Syncfusion Blazor Sidebar component to create a modern, responsive navigation experience in place of the default Blazor navigation bar.
+This sample demonstrates how to replace the default Blazor navigation menu with the Syncfusion [Blazor Sidebar](https://www.syncfusion.com/blazor-components/blazor-sidebar) component. The application uses a Sidebar based layout to provide a responsive and customizable navigation experience within a Blazor Server application.
 
-## Project Overview
-The purpose of this project is to help developers understand how to use the Syncfusion Blazor Sidebar component for application navigation. It shows how the Sidebar can be used as a flexible and customizable alternative to the built‑in Blazor navigation menu.
+The implementation shows how the built in Blazor navigation menu can be replaced with a Sidebar component that supports collapsible navigation and a modern application layout. It serves as a practical reference for developers who want to introduce Sidebar based navigation patterns into Blazor applications.
 
-## Features
-- Integration of Syncfusion Blazor Sidebar component  
-- Replacement of the default Blazor navigation menu  
-- Responsive and collapsible sidebar layout  
-- Clean and customizable navigation structure  
+## Key Features
 
-## Examples
-- Live demo:  
-  https://blazor.syncfusion.com/demos/sidebar/default-functionalities?theme=bootstrap4
+- Uses the Syncfusion Blazor Sidebar component to replace the default Blazor navigation menu.
+- Integrates `SfSidebar` into the application layout to provide a custom navigation experience.
+- Supports collapsible Sidebar navigation for improved screen space utilization.
+- Demonstrates Sidebar-based navigation within a Blazor Server application.
+- Configures Syncfusion Blazor components through `builder.Services.AddSyncfusionBlazor()` in `Program.cs`.
+- Uses Blazor routing together with Sidebar navigation to switch between application views.
+- Provides a responsive navigation layout that adapts to different screen sizes.
+- Shows how custom navigation content can be hosted inside the Sidebar component instead of the default `NavMenu`.
 
 ## Prerequisites
-- Visual Studio 2022  
-- .NET SDK compatible with Blazor  
 
-## Installation and Running the Project
-1. Check out or clone this project to a local directory.
-2. Open the solution file using Visual Studio 2022.
-3. Restore the NuGet packages by rebuilding the solution.
-4. Build and run the project to view the Sidebar‑based navigation.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet) compatible with the project's target framework
 
-## Usage
-Run the application and observe how the default navigation bar is replaced by the Syncfusion Blazor Sidebar. Customize the Sidebar configuration to adjust layout, responsiveness, or navigation items.
+## How to Run the Project
 
-## Documentation
-- General Syncfusion documentation:  
-  https://help.syncfusion.com/
-- Blazor Introduction:  
-  https://blazor.syncfusion.com/documentation/introduction
-- Blazor Sidebar Getting Started:  
-  https://blazor.syncfusion.com/documentation/sidebar/getting-started
+**Visual Studio 2022**
 
-## Additional Resources
-- Blog reference:  
-  https://www.syncfusion.com/blogs/post/replace-default-navigation-with-syncfusion-blazor-sidebar.aspx
+1. Clone or download the repository.
+2. Open the `SidebarDockNavigation.sln` solution file:
+3. Restore the NuGet packages.
+4. Set the startup project to `SidebarDockNavigation`.
+5. Build the solution.
+6. Run the application using `Ctrl+F5`.
 
-## Troubleshooting
-- Ensure the correct .NET SDK and Visual Studio version are installed.
-- Rebuild the solution if NuGet packages fail to restore.
-- Check browser developer tools for runtime or rendering errors.
-- Verify Sidebar configuration if navigation does not appear as expected.
+**Visual Studio Code**
 
-## Support
-For detailed API references, advanced configuration options, and additional examples, refer to the Syncfusion Blazor documentation links provided above.
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the project directory.
+
+```bash
+dotnet restore
+dotnet run
+```
+4. Open the local URL displayed in the terminal after the application starts.
+
+## Project Structure
+
+- `SidebarDockNavigation.sln` — Visual Studio solution file containing the sample projects.
+
+- `Pages/Index.razor` — Main sample page that demonstrates replacing the default Blazor navigation menu with the Syncfusion Sidebar component.
+
+## Support and Feedback
+
+- For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
+- To report an issue specific to this sample, open a GitHub issue in this repository.
+- For implementation details, see the [relevant official Syncfusion documentation](https://blazor.syncfusion.com/documentation/sidebar/getting-started).
+
+## License
+
+This is a Syncfusion sample project provided to demonstrate product usage. Review the [Syncfusion license terms](https://www.syncfusion.com/sales/pricing?category=ui-components) before using Syncfusion components in your own applications.
