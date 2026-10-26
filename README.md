@@ -19,8 +19,8 @@ The purpose of this project is to help developers understand how to use the Sync
   https://blazor.syncfusion.com/demos/sidebar/default-functionalities?theme=bootstrap4
 
 ## Prerequisites
-- Visual Studio 2022  
-- .NET SDK compatible with Blazor  
+- Visual Studio 2022
+- .NET 10.0 SDK
 
 ## Installation and Running the Project
 1. Check out or clone this project to a local directory.
