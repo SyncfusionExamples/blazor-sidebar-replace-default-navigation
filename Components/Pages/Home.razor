@@ -1,5 +1,4 @@
-﻿@page "/"
-@using Syncfusion.Blazor.Navigations
+@page "/"
 
 <div id="header" style="height:55px;text-align: center;color:white;background-color: midnightblue;font-size:1.5rem;line-height:55px;">
     Header
@@ -39,7 +38,7 @@
 </div>
 
 @code{
-    SfSidebar sidebarObj;
+    SfSidebar? sidebarObj;
     public bool SidebarToggle = false;
     public void Toggle()
     {
