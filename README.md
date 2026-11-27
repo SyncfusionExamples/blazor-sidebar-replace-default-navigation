@@ -41,10 +41,21 @@ The implementation shows how the built-in Blazor navigation menu can be replaced
 
 ```bash
 cd SidebarDockNavigation
+```
+
+4. Restore project dependencies:
+
+```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
-4. Open the local URL displayed in the terminal after the application starts.
+
+6. Open the local application URL displayed in the terminal after the application starts.
 
 ## Support and Feedback
 
